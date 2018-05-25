@@ -27,10 +27,25 @@
 #aboutprofile {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 700px) {
+  #aboutprofile {
+    flex-wrap: nowrap;
+  }
 }
 
 #aboutprofile > span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+#profpic {
+  width: auto;
+  height: auto;
+  max-width: 405px;
+  max-height: 610px;
 }

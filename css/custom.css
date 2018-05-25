@@ -61,3 +61,17 @@
   width: 60%;
   height: auto;
 }
+
+.case-description {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.case-description li {
+  margin-left: 25px;
+}
+
+.case-description .double-indent {
+  margin-left: 50px;
+}

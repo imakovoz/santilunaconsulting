@@ -23,3 +23,14 @@
   max-height: 100%;
   margin-top: -16px;
 }
+
+#aboutprofile {
+  display: flex;
+  flex-direction: row;
+}
+
+#aboutprofile > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

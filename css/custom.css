@@ -118,3 +118,11 @@ margin-top: 5px;
 blockquote cite:before {
 content: "\2014 \2009";
 }
+
+.italic {
+  font-style: italic;
+}
+
+#capabilities-info * {
+  font-family: 'Tajawal', sans-serif;
+}

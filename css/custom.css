@@ -75,14 +75,15 @@
 .case-description .double-indent {
   margin-left: 50px;
 }
-
+/*
 #comlist {
   text-align: left;
-}
+} */
 
 #quote-container {
   padding-left: 10px;
   border-left: 3px solid #3e6cb7;
+  text-align: center;
 }
 
 blockquote {

@@ -98,7 +98,7 @@ position: relative;
 color: #383838;
 }
 
-blockquote:before {
+/* blockquote:before {
 display: block;
 padding-left: 10px;
 content: "\201C";
@@ -107,7 +107,7 @@ position: absolute;
 left: -20px;
 top: -20px;
 color: #7a7a7a;
-}
+} */
 
 blockquote cite {
 color: #999999;
@@ -126,4 +126,8 @@ content: "\2014 \2009";
 
 .tajawal {
   font-family: 'Tajawal', sans-serif;
+}
+
+.intro-heading {
+  font-style: italic;
 }

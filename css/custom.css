@@ -42,7 +42,6 @@
 }
 
 @media (max-width: 900px) {
-
   #aboutprofile > span {
     padding-top: 50px;
   }
@@ -99,15 +98,15 @@
 }
 
 blockquote {
-font-family: Georgia, serif;
-font-size: 18px;
-font-style: italic;
-width: 100%;
-margin: 0.25em 0;
-padding: 0.35em 40px;
-line-height: 1.45;
-position: relative;
-color: #383838;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 100%;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
 }
 
 /* blockquote:before {
@@ -122,14 +121,14 @@ color: #7a7a7a;
 } */
 
 blockquote cite {
-color: #999999;
-font-size: 14px;
-display: block;
-margin-top: 5px;
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
 }
 
 blockquote cite:before {
-content: "\2014 \2009";
+  content: "\2014 \2009";
 }
 
 .italic {
@@ -137,9 +136,17 @@ content: "\2014 \2009";
 }
 
 .tajawal {
-  font-family: 'Tajawal', sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .intro-heading {
   font-style: italic;
+}
+
+#calendlyContainer {
+  height: 600px;
+}
+
+iframe {
+  overflow: hidden;
 }
